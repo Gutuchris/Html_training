@@ -3,22 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Html</title>
   </head>
   <body>
-
-    <nav>
-
+     <nav>
+      
+      <a href="login.html">Login</a>
       <a href="home.html">Home</a>
       <a href="about.html">About</a>
       <a href="services.html">Services</a>
       <a href="contact.html">Contact</a>
-  
-    </nav>
-
-
+      <input type="text" placeholder="Search Vehicles">
+    </nav> 
 
     <!-- Elements -->
+
     <!-- They are building blocks of html documents-->
 
     <!-- Headings  -->
@@ -39,55 +38,159 @@
 <br>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptatibus!</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+    <!-- 
+<h1><center><u><i>My Coding Journey</i></u></center></h1> -->
 
-<h1><center><u><i>My Coding Journey</i></u></center></h1>
+    <!-- Note
+
+  To position our Elements at the center we use the <center> tag
+  To write the words in Italic we use the <i> tag
+  To underline the words we use the <u> tag
+  To make the text bold we use the <strong> tag
+
+ -->
 
     <!-- Lists -->
 
     <!-- They are used to organize and display items in a structured manner -->
+
     <!-- Ordered Lists -->
-    <ol>
-      <li><strong>Html</strong></li>
-      <li><i>Css</i></li>
+
+    <!-- <ol>
+      <li>Html</li>
+      <li>Css</li>
       <li>Javascript</li>
       <li>Python</li>
-    </ol>
+    </ol> -->
 
     <!-- Un-orderd lists -->
 
+    <!-- 
     <ul>
       <li>Html</li>
       <li>Css</li>
       <li>Javascript</li>
       <li>Python</li>
-    </ul>
+    </ul> -->
 
     <!-- Description Lists -->
-    <dl>
+
+    <!-- <dl>
       <dt>Css</dt>
       <dd>The full name is Cascading Style Sheets</dd>
       <dt>Html</dt>
       <dd>Hypertext Markup Language</dd>
-    </dl>
-
-    <!-- Question 
-You are planning to open a hotel and you want to create a webpage for it.
-Create a webpage with the following elements:
-1. A title 
-2. A heading
-3. A paragraph
-- About your hotel
-
-4. An ordered list of the menu items
-5. An un-ordered list of the tables preserverd by the hotel
-
-
--->
+    </dl> -->
 
     <!-- lINKS -->
+
     <!-- <a href="https://www.microsoft.com/en-us/">Microsoft</a> -->
 
     <!-- Images -->
-    <!-- <img src="pic1.jpg" alt="Nature" >     -->
+
+    <!-- <img src="pic1.jpg" alt="Nature" > -->
+
+    <!-- 
+
+Forms
+Tables
+Select
+Div and Span block elements
+
+-->
+
+    <!-- Forms 
+- Used to collect user inputs
+
+Types of Forms
+1.Text Input
+2.checkbox
+3.Radio Button
+4.password
+5.submit button
+6.email
+-->
+
+<!-- Text $ Password -->
+    <h3>Login</h3>
+    <form>
+      <input type="text" placeholder="Username" />
+      <br>
+      <input type="password" placeholder="password"/>
+      <br />
+<!-- Checkbox -->
+      <h3>Enter your skills</h3>
+      <p>Select all that are applicable</p>
+
+      <input type="checkbox" />Html 
+      <br>
+      <input type="checkbox" />Css
+      <br>
+      <input type="checkbox" />Javascript 
+      <br>
+      <input type="checkbox" />Python
+
+    
+<!-- Radio button -->
+     <h3>Enter your Gender</h3>
+
+     <input type="radio" name="Gender" value="male">Male
+     <br>
+     <input type="radio" name="Gender" value="female">Female
+
+<!-- Numbers -->
+
+      <h3>Enter your Age</h3>
+
+      <input type="number" placeholder="Age" />
+
+<!-- Email -->
+
+
+      <h3>Enter your Email</h3>
+
+      <input type="email" placeholder="Email" />
+      <br>
+
+<!-- Submit -->
+  
+<input type="submit" value="Sign up">
+
+<!-- 
+
+     Note - The current value of an input field determines 
+     what appears inside the form field when the page loads 
+     
+     -->
+    </form>
+
+    
+
+    <!-- SELECT 
+
+     It is used to create a dropdown menu for selecting options
+     We use select tag with a nested option tag and an attribute value
+    -->
+    <h2>Select your country</h2>
+   <select>
+
+   <option value="kenya">Kenya</option>
+   <option value="Uganda">Uganda</option>
+   <option value="Tanzania">Tanzania</option>
+
+   </select>
+  
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>
